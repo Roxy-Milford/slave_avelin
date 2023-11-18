@@ -1,2 +1,2 @@
 # slave_avelin
-should help do your homework
+Should help do your homework.
