@@ -28,5 +28,3 @@ class Test_gcd(unittest.TestCase):
         self.assertRaises(ValueError, gcd, 0, -7364)
 
 
-if __name__ == '__main__':
-    unittest.main()
