@@ -4,6 +4,11 @@ class Typewriter:
     def __init__(self):
         self._current_indent = 0
         self.INDENTATION = "... "
+
+        print("")
+    
+    def __del__(self):
+        print("")
     
     def type(self, text: str):
         """Standart output: treat as a paragraph"""
