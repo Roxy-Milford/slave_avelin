@@ -26,3 +26,5 @@ class TestGcd(unittest.TestCase):
         self.assertRaises(ValueError, gcd, -7364, -1)
         self.assertRaises(ValueError, gcd, -7364, 0)
         self.assertRaises(ValueError, gcd, 0, -7364)
+
+
