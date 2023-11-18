@@ -4,7 +4,7 @@ import unittest
 from slave_avelin.algorithms import gcd
 from slave_avelin.typewriters import Typewriter, new_indent
 
-class TestGcd:
+class TestGcd(unittest.TestCase):
     def test_gcd(self):
         self.assertEqual(gcd(25, 15), 5)
         self.assertEqual(gcd(8325974, 93517), 1)
