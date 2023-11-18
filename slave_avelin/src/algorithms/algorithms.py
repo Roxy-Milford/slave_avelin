@@ -1,6 +1,6 @@
 # from functools import wraps
 
-from typewriters import Typewriter, new_indent
+from ..typewriters.typewriters import Typewriter, new_indent
 
 
 ################################################################################
@@ -66,4 +66,4 @@ def gcd(a: int, b: int, twr: Typewriter) -> int:
         return r_1
     
     # main part 
-    gcd(a=a, b=b, twr=twr)
+    return gcd(a=a, b=b, twr=twr)
