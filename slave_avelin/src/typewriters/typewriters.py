@@ -73,7 +73,7 @@ class Typewriter(AbstractTypewriter):
         Returns:
             None
         """
-        # TODO: create different print style for different objects, like table, image, etc...
+        # TODO: create different print style for different objects, like table, image, etc..., use @overload
         if new_line and not self._is_on_new_line:  # become confident that you are on new line if needed
             print("")
             self._is_on_new_line = True
