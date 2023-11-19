@@ -21,5 +21,6 @@ if __SLAVE_AVELIN_TYPEWRITERS__:
     sys.stderr.write('Running from numpy source directory.\n')
 else:
     from .typewriters import Typewriter
+    from .typewriters import EmptyTypewriter
 
 
