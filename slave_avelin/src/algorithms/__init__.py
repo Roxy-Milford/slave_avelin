@@ -21,5 +21,6 @@ if __SLAVE_AVELIN_ALGORITHMS__:
     sys.stderr.write('Running from numpy source directory.\n')
 else:
     from .algorithms import gcd
+    from .algorithms import modular_inverse
 
 
